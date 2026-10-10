@@ -1,0 +1,20 @@
+# Never commit secrets
+.env
+.env.*
+*.pem
+*.key
+service-role*.txt
+supabase/.temp/
+supabase/.branches/
+
+# Personal exports/backups of financial data
+dailybudget-backup-*.json
+dailybudget-transactions-*.csv
+dailybudget-report-*.csv
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
